@@ -35,10 +35,11 @@ It is documentation only. No runnable source code is included. Instead, it provi
 # Experimental Harness (Pseudocode)
 APD includes a synthetic attack simulator to validate resilience against slow drip ransomware vectors. This harness generates micro payloads with entropy changes and enforces temporal delays to mimic stealthy attack pacing.
 python
-    # APD Attack Simulator & Bit-Rot Harness
-initialize_socket(target_ip="0.0.0.0", port=0000)
 
-for iteration in range(50):
+    # APD Attack Simulator & Bit-Rot Harness
+   initialize_socket(target_ip="0.0.0.0", port=0000)
+
+    for iteration in range(50):
     # Generate micro-payload with simulated entropy changes
     payload = generate_random_bytes(length=16)
     
