@@ -37,7 +37,7 @@ APD includes a synthetic attack simulator to validate resilience against slow dr
 python
 
     # APD Attack Simulator & Bit-Rot Harness
-   initialize_socket(target_ip="0.0.0.0", port=0000)
+    initialize_socket(target_ip="0.0.0.0", port=0000)
 
     for iteration in range(50):
     # Generate micro-payload with simulated entropy changes
