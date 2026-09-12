@@ -6,11 +6,11 @@ APD is a Go based, bare metal security architecture that detects stealthy “low
 # Purpose of this Repository
 This repository documents Aging-Portrait Defense (APD) — a conceptual cybersecurity architecture designed to intercept and neutralize stealthy ransomware attacks before they impact production storage.
 It is documentation only. No runnable source code is included. Instead, it provides:
-•	The full academic report 
-•	The conceptual design of APD’s architecture
-•	Diagrams and visuals explaining the telemetry pipeline and defense engines
-•	Pseudocode harness for the attack simulator (illustrating logic without exposing implementation)
-•	Final results and telemetry outputs from controlled experiments
+1) The full academic report 
+2) The conceptual design of APD’s architecture
+3) Diagrams and visuals explaining the telemetry pipeline and defense engines
+4) Pseudocode harness for the attack simulator (illustrating logic without exposing implementation)
+5) Final results and telemetry outputs from controlled experiments
 
 ----------------------------------------------------------------------
 # Architecture
