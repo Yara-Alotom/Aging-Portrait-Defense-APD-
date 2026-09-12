@@ -1,5 +1,5 @@
 # Aging-Portrait Defense (APD)
-TL;DR: 
+
 APD is a Go based, bare metal security architecture that detects stealthy “low and slow” bit rot ransomware. It uses an in memory decoy fabric (ShadowCanvas) and dual metric drift analysis (Shannon entropy + Hamming distance) to catch corruption at a 0.005% threshold. When anomalies arise, APD executes an instant Inverse XOR Patch in memory, neutralizing decay before it touches production storage.
 “The canvas bears the burden of the age, while the system remains untouched.”
 
